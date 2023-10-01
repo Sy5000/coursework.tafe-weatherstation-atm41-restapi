@@ -5,6 +5,8 @@ API Endpoints run on Express.js server (framework)
 Endpoints point to mongodb NoSQL database storage  
 Docemnted in swaggerUI located 'localhost:3000/api-docs'
 
+some endpoints require 'admin' or 'teacher' permissions
+
 ## Installation
 
 1.
