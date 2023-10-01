@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "640436b56ebde94c4a7eb9de"
+  },
+  "username": "admin001",
+  "email": "admin001@edu.com",
+  "password": "password",
+  "lastLogin": "Sun Mar 05 2023 16:29:09 GMT+1000 (AEST)",
+  "permissions": "admin"
+},
+{
+  "_id": {
+    "$oid": "640b0ac386cc5f466ca013cb"
+  },
+  "username": "test11",
+  "email": "test@test.com",
+  "password": "password123",
+  "permissions": "student"
+},
+{
+  "_id": {
+    "$oid": "640c048e53d328b3234a3723"
+  },
+  "username": "test666",
+  "email": "test@test.com",
+  "password": "password123",
+  "permissions": "teacher"
+},
+{
+  "_id": {
+    "$oid": "640c049253d328b3234a3724"
+  },
+  "username": "test656",
+  "email": "test@test.com",
+  "password": "password123",
+  "permissions": "teacher"
+},
+{
+  "_id": {
+    "$oid": "640efd8c3159419e54e2339b"
+  },
+  "username": "mrPoopyButhole",
+  "email": "string",
+  "password": "string",
+  "permissions": "string"
+},
+{
+  "_id": {
+    "$oid": "640f034249fa1cee911bd260"
+  },
+  "username": "mrPoopyButhole",
+  "email": "string",
+  "password": null,
+  "permissions": "string"
+},
+{
+  "_id": {
+    "$oid": "640f04641585f82f144a72c6"
+  },
+  "username": "mrPoopyButhole",
+  "email": "string",
+  "password": "$2a$10$Tn02KgnPRX2gno5dWEDdDexK9D7PUXsGiNcEGSqadHrdMkroPPNEK",
+  "permissions": "string"
+},
+{
+  "_id": {
+    "$oid": "640f04a82c52c472294f6107"
+  },
+  "username": "mrPoopyButhole",
+  "email": "string",
+  "password": "$2a$10$VX0CVVb0ka6gm8Nk7j9Vjee9eXIIzavuHw/CtRhNlrCxSEodfUv6G",
+  "permissions": "string"
+},
+{
+  "_id": {
+    "$oid": "640f04ec2c52c472294f6108"
+  },
+  "username": "Bowen Yang",
+  "email": "SNL.com",
+  "password": "$2a$10$sddU8Oa1J.Od439RclYKQu8kNIRB2fX9tFW7r6dvRunQRKD4StAtW",
+  "permissions": "student"
+},
+{
+  "_id": {
+    "$oid": "6518264f201f2eb0711550db"
+  },
+  "username": "mrPoopyButholenew",
+  "email": "string",
+  "password": "$2a$10$EzaWlhoU8ipnqvcBLGCjMe.UkLHa8GPMRa3zRbWAkRnrMdkJqgvVG",
+  "permissions": "string"
+},
+{
+  "_id": {
+    "$oid": "65182654201f2eb0711550dc"
+  },
+  "username": "mrPoopyButholenew",
+  "email": "string",
+  "password": "$2a$10$ncKm4oVFcfyHP4N2SmjGIuk9BbDS9AngP0J5kilJgFOXhPq9VLU9u",
+  "permissions": "string"
+},
+{
+  "_id": {
+    "$oid": "65182657201f2eb0711550dd"
+  },
+  "username": "mrPoopyButholenew",
+  "email": "string",
+  "password": "$2a$10$Bq0XacYJ9v6Z2kWC0Nn7LORfwOcjUugeUhsPk3vrv3yNwikFtD6TW",
+  "permissions": "string"
+}]
