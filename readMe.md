@@ -1,9 +1,9 @@
 # IoT Weather station API project
 
-NSW weather station climate data 
-API Endpoints run on Express.js server (framework)  
-Endpoints point to mongodb NoSQL database storage  
-Docemnted in swaggerUI located 'localhost:3000/api-docs'
+NSW weather station climate data   
+API Endpoints run on Express.js server (framework)    
+Endpoints point to mongodb NoSQL database storage   
+Docemnted in swaggerUI located 'localhost:3000/api-docs'  
 
 ## Installation 
 
