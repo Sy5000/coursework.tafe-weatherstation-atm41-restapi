@@ -2,8 +2,8 @@
 
 NSW weather station climate data  
 API Endpoints run on Express.js server (framework)  
-Endpoints point to mongodb NoSQL database storage  
-Docemnted in swaggerUI located 'localhost:3000/api-docs'
+Endpoints point to mongodb NoSQL (database storage)  
+Documented in swaggerUI located 'localhost:3000/api-docs'
 
 Create, Read, Update endpoints require 'admin' or 'teacher' permissions
 
@@ -11,17 +11,17 @@ Create, Read, Update endpoints require 'admin' or 'teacher' permissions
 
 1. start application
 
-Using docker, the entire stack can be constructed by running
+Using docker, the entire stack can be constructed by running;
 
 ```
 docker-compose up
 ```
 
-from the same directory as the docker-compose file / project file.
+from the same directory as the docker-compose file / project files.
 
 2. stop application
 
-run
+run;
 
 ```
 docker-compose down
@@ -31,7 +31,7 @@ from the same dir
 
 ### notes
 
-'mongo_seed' will run a single cmd to populate the database then exit running.
+'mongo_seed' container will run a single cmd to populate the database then exit running.
 
 mongoDB compass can be used as a GUI for MongoDB.
 
@@ -41,3 +41,4 @@ manually start express
 npm init
 npm install
 npm run dev ( package.json > scripts > dev auto start/restart server when changes are made )
+git
