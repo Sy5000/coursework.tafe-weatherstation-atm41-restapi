@@ -1,0 +1,4 @@
+FROM mongodb/mongodb-community-server:4.4.21-ubi8
+
+COPY climateDB.stationAtm41.json /climateDB.stationAtm41.json
+CMD mongoimport --host mongodb --db my-climateDB --collection stationAtm41 --type json --file /climateDB.stationAtm41.json --jsonArray

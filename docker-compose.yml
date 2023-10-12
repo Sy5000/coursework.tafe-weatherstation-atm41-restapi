@@ -1,0 +1,35 @@
+version: "3.8" #compatible with docker engine 19.03+
+
+services:
+  mongodb:
+    image: mongodb/mongodb-community-server:4.4.21-ubi8
+    # environment:
+    #   - MONGO_INITDB_ROOT_USERNAME=user
+    #   - MONGO_INITDB_ROOT_PASSWORD=pass
+    #   # - MONGO_INITDB_DATABASE=climateDB
+    # volumes:
+    #   - type: bind
+    #     source: ./data
+    #     target: /data/db
+    # command: mongoimport --host mongodb --db climateDB --type json --collection stationAtm41 --file /data/climateDB.stationAtm41.json
+    ports:
+      - 27017:27017
+    # depends_on:
+    #   - mongo_seed
+
+  mongo_seed:
+    build: ./mongo-seed #points to dockerfile
+    depends_on:
+      - mongodb
+
+  apiapp:
+    build: ./ #points to dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      - CONN_STR=mongodb://localhost:27017
+      #- CONN_STR=mongodb://user:pass@mongodb # compass 'mongodb://user:pass@localhost:27017/?authMechanism=DEFAULT'
+    depends_on:
+      - mongodb
+volumes:
+  db:

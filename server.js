@@ -1,8 +1,3 @@
-// https://www.sohamkamani.com/nodejs/mongodb-express-rest-api/
-// https://zellwk.com/blog/crud-express-mongodb/#convertkit
-// https://flaviocopes.com/rest-api-express-mongodb/
-// swagger documentation https://www.youtube.com/watch?v=eiSem0cqaN0
-
 // import dependencies
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -550,3 +545,10 @@ app.put("/users/update", isAuth, (req, res) => {
 app.listen(3000, () => {
   console.log("Server Ready port 3000");
 });
+
+// refs
+
+// https://www.sohamkamani.com/nodejs/mongodb-express-rest-api/
+// https://zellwk.com/blog/crud-express-mongodb/#convertkit
+// https://flaviocopes.com/rest-api-express-mongodb/
+// swagger documentation https://www.youtube.com/watch?v=eiSem0cqaN0

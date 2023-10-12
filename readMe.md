@@ -1,4 +1,4 @@
-# IoT Weather station API project
+# IoT Weather station API project (development)
 
 NSW weather station climate data  
 API Endpoints run on Express.js server (framework)  
@@ -9,37 +9,35 @@ Create, Read, Update endpoints require 'admin' or 'teacher' permissions
 
 ## Installation
 
-1. start project
+1. start application
+
+Using docker, the entire stack can be constructed by running
 
 ```
-npm init
+docker-compose up
 ```
 
-2. install dependencies
+from the same directory as the docker-compose file / project file.
+
+2. stop application
+
+run
 
 ```
-npm install
+docker-compose down
 ```
 
-3. start server
-
-```
-npm run dev
-```
+from the same dir
 
 ### notes
 
-install mongodb seperately
+'mongo_seed' will run a single cmd to populate the database then exit running.
 
-cmd line - 'brew services start/stop --all' turns mongo background services on / off
-cmd line - 'mongo' - starts a mongo instance, --port 27017 is default, can change
-open mongodb compass and connect to port eg mongodb://localhost:27017
-OR cmd line mongo -27017 and type commands directly
+mongoDB compass can be used as a GUI for MongoDB.
 
-upload database files provided
+https://www.mongodb.com/try/download/compass
 
-REST API runs on express server
-npm run dev ( package.json > scripts > dev auto start/restart server when changes are made)
-
-connect to express in browser 'localhost:3000'
-full swagger documentation located 'localhost:3000/api-docs/
+manually start express
+npm init
+npm install
+npm run dev ( package.json > scripts > dev auto start/restart server when changes are made )
