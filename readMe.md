@@ -45,7 +45,9 @@ https://www.mongodb.com/try/download/community
 2. comment in/out required 'url' variable for local/containerised mongo database
 3. start mongo server and upload JSON files from '/mongo-seed' directory manually
 4. open project in VSCode
-   from terminal;
+
+from terminal;
+
 5. npm init
 6. npm install
 7. npm run dev ( package.json > scripts > dev auto start/restart server when changes are made )
