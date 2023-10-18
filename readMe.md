@@ -41,13 +41,13 @@ https://www.mongodb.com/try/download/compass
 
 https://www.mongodb.com/try/download/community
 
-> open 'server.js' project file
-> comment in/out required 'url' variable for local/containerised mongo database
-> start mongo server and upload JSON files from '/mongo-seed' directory manually
-> open project in VSCode
-> from terminal
-> npm init
-> npm install
-> npm run dev ( package.json > scripts > dev auto start/restart server when changes are made )
+1. open 'server.js' project file
+2. comment in/out required 'url' variable for local/containerised mongo database
+3. start mongo server and upload JSON files from '/mongo-seed' directory manually
+4. open project in VSCode
+5. from terminal
+6. npm init
+7. npm install
+8. npm run dev ( package.json > scripts > dev auto start/restart server when changes are made )
 
 database will be available on port 27017 eg 'mongodb://localhost:27017'
