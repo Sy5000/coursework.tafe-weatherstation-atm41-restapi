@@ -2,7 +2,7 @@
 FROM node:18-alpine
 # create app directory 
 WORKDIR /app
-# copy project files (all)
+# copy project files (all) 
 COPY . .
 # install packages
 RUN npm install && npm update

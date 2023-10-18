@@ -3,7 +3,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const { ObjectId } = require("mongodb");
 const mongo = require("mongodb").MongoClient;
-const url = "mongodb://localhost:27017";
+// const url = "mongodb://localhost:27017"; ## localhost mongodb connection
+const url = "mongodb://mongodb:27017"; /* contianerised mongodb connection */
 const cors = require("cors");
 const app = express(); //init app
 const swaggerUI = require("swagger-ui-express");
@@ -206,7 +207,7 @@ app.post("/weatherStations/", isAuth, (req, res) => {
  *         properties:
  *           username:
  *             type: string
- *             example: mrPoopyButhole
+ *             example: BirdPerson
  *           email:
  *             type: string
  *           password:
